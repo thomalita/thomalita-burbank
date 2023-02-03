@@ -73,7 +73,7 @@ body,html {
 #middle {
     width:100%;
     height:40vh;
-    background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://wallpapercave.com/wp/wp5639224.jpg") center center fixed;
+    background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://e0.pxfuel.com/wallpapers/669/578/desktop-wallpaper-lightning-over-monument-valley-utah-lightning-nature-usa-canyon.jpg") center center fixed;
     background-size:100% auto;
     background-repeat:no-repeat;
     color:white;
@@ -85,7 +85,7 @@ body,html {
 #tagline {
     font-size:20px;
     width:60%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 #portfolio {
     width:80%;
@@ -304,4 +304,15 @@ button:focus {
 0% {background-position: 0% 50%}
 50% {background-position: 100% 50%}
 100% {background-position: 0% 50%}
+}
+
+#face {
+    width: 35%;
+    height: 45%;
+    border-radius: 1em;
+    border: 5px solid white;
+    justify-content: left;
+}
+#aboutMe {
+    background-color: rgba(96, 92, 92, 0.4);
 }
