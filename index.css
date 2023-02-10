@@ -72,8 +72,8 @@ body,html {
 }
 #middle {
     width:100%;
-    height:40vh;
-    background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://e0.pxfuel.com/wallpapers/669/578/desktop-wallpaper-lightning-over-monument-valley-utah-lightning-nature-usa-canyon.jpg") center center fixed;
+    height:50vh;
+    background:linear-gradient(1deg,rgb(8, 8, 8),rgba(48, 48, 48, 0)),url("https://e0.pxfuel.com/wallpapers/669/578/desktop-wallpaper-lightning-over-monument-valley-utah-lightning-nature-usa-canyon.jpg") center center fixed;
     background-size:100% auto;
     background-repeat:no-repeat;
     color:white;
@@ -85,7 +85,8 @@ body,html {
 #tagline {
     font-size:20px;
     width:60%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
 #portfolio {
     width:80%;
@@ -307,12 +308,13 @@ button:focus {
 }
 
 #face {
-    width: 35%;
-    height: 45%;
+    width: 40%;
+    height: 50%;
     border-radius: 1em;
-    border: 5px solid white;
-    justify-content: left;
+    /* border: 5px solid rgb(19, 19, 19); */
+    justify-content: center;
 }
 #aboutMe {
-    background-color: rgba(96, 92, 92, 0.4);
+    background-color: rgba(23, 23, 23, 0.4);
+    padding: 10px;
 }
